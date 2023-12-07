@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  h1 {
+    font-weight: bold; /* Negrita */
+    color: #ff7f00; /* Anaranjado */
+  }
+  
+  .contenido {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .boton-mercado-pago {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .boton-mercado-pago a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcc00; /* Amarillo */
+    color: #000; /* Texto negro para contrastar con el fondo amarillo */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  /* Consulta de medios para pantallas más pequeñas (ej. dispositivos móviles) */
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 1.5em; /* Reducir el tamaño del título en pantallas más pequeñas */
+    }
+  
+    .boton-mercado-pago a {
+      font-size: 0.8em; /* Reducir el tamaño del texto del botón en pantallas más pequeñas */
+    }
+  }
+  
+  
